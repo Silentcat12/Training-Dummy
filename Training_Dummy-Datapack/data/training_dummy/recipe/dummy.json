@@ -1,0 +1,70 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "#": "minecraft:stick",
+        "X": "minecraft:target",
+        "H": "minecraft:hay_block"
+    },
+    "pattern": [
+        " H ",
+        "#X#",
+        " # "
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:armor_stand",
+        "components": {
+            "item_model": "training_dummy:dummy",
+            "item_name": {
+                "translate": "block.training_dummy.dummy"
+            },
+            "rarity": "uncommon",
+            "lore": [
+                [
+                    {
+                        "color": "dark_gray",
+                        "text": "[ "
+                    },
+                    {
+                        "color": "gray",
+                        "keybind": "key.sneak"
+                    },
+                    {
+                        "color": "gray",
+                        "text": " + "
+                    },
+                    {
+                        "color": "gray",
+                        "keybind": "key.attack"
+                    },
+                    {
+                        "color": "dark_gray",
+                        "text": " ] "
+                    },
+                    {
+                        "translate": "block.training_dummy.dummy.tooltip1"
+                    }
+                ]
+            ],
+            "entity_data": {
+                "id": "armor_stand",
+                "Tags": [
+                    "training_dummy"
+                ],
+                "Invisible": true,
+                "equipment": {
+                    "head": {
+                        "id": "paper",
+                        "components": {
+                            "item_model": "training_dummy:dummy"
+                        },
+                        "count": 1
+                    }
+                },
+                "NoBasePlate": true,
+                "NoGravity": true
+            }
+        }
+    }
+}

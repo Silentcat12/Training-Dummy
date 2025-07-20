@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "name": "_Silentcat_"
+                }
+            },
+            "count": 1
+        },
+        "title": "Silentcat's Datapack",
+        "description": [
+            {
+                "text": "Fabric Mod, Server Plugins and Datapack Developer\n",
+                "color": "gold"
+            },
+            {
+                "text": "\n",
+                "color": "white"
+            },
+            {
+                "text": "modrinth.com/user/Silentcat",
+                "color": "dark_purple"
+            }
+        ],
+        "background": "block/mangrove_planks",
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

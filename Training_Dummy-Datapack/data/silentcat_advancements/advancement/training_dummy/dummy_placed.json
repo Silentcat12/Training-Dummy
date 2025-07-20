@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:target",
+            "components": {},
+            "count": 1
+        },
+        "title": "Target Practice",
+        "description": "Place a Training Dummy"
+    },
+    "parent": "silentcat_advancements:training_dummy/resource_pack",
+    "criteria": {
+        "placed": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "placed"
+        ]
+    ]
+}

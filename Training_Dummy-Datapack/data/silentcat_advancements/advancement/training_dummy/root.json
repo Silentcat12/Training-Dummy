@@ -1,0 +1,63 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:command_block",
+            "components": {},
+            "count": 1
+        },
+        "title": "Training Dummy Datapack",
+        "description": [
+            "",
+            {
+                "text": "Create a Training Dummy to test your damage amount\n",
+                "color": "gold"
+            },
+            {
+                "text": "\n",
+                "color": "white"
+            },
+            {
+                "text": "Datapack version: ",
+                "color": "dark_green"
+            },
+            {
+                "text": "v1.0.0",
+                "color": "green"
+            },
+            {
+                "text": "\n",
+                "color": "white"
+            },
+            {
+                "text": "Game versions: ",
+                "color": "dark_green"
+            },
+            {
+                "text": "1.21.6+",
+                "color": "green"
+            },
+            {
+                "text": "\n",
+                "color": "white"
+            },
+            {
+                "text": "modrinth.com/datapack/training-dummy",
+                "color": "dark_purple"
+            }
+        ],
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "silentcat_advancements:root",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "training_dummy:dummy"
+        ]
+    }
+}

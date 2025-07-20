@@ -1,0 +1,8 @@
+{
+    "values": [
+        "training_dummy:place/dummy_place",
+        "training_dummy:hit/dummy_hit_registry",
+        "training_dummy:hit/dummy_hit_display_remove",
+        "training_dummy:break/dummy_break"
+    ]
+}

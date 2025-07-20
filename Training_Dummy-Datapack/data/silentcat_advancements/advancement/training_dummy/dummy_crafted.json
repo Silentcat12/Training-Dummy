@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:target",
+            "components": {
+                "minecraft:item_model": "training_dummy:dummy"
+            },
+            "count": 1
+        },
+        "title": "Aim Trainer",
+        "description": "Crafted a Training Dummy",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "silentcat_advancements:training_dummy/resource_pack",
+    "criteria": {
+        "training_dummy_got": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "training_dummy:dummy"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "training_dummy_got"
+        ]
+    ]
+}
