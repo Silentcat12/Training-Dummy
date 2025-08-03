@@ -64,7 +64,8 @@
                 },
                 "NoBasePlate": true,
                 "NoGravity": true,
-                "Marker": true
+                "Marker": true,
+                "DisabledSlots":4144959
             }
         }
     }
