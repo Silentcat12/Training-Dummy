@@ -63,7 +63,8 @@
                     }
                 },
                 "NoBasePlate": true,
-                "NoGravity": true
+                "NoGravity": true,
+                "Marker": true
             }
         }
     }
