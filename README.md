@@ -1,4 +1,4 @@
-# Training Dummy
+# <img src="https://cdn.modrinth.com/data/BflFQ6iN/images/1167ea81904d6a14f8e93661865cfb1d4b171230.png" alt="Logo" width="32" height="32"> Training Dummy
 Training Dummy datapack for 1.21.6+
 
 ## Summary
