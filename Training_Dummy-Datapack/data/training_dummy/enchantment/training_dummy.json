@@ -1,0 +1,31 @@
+{
+    "description": {
+        "translate": "block.training_dummy.dummy",
+        "fallback": "Training Dummy"
+    },
+    "supported_items": "#minecraft:enchantable/mining",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [
+        "hand"
+    ],
+    "effects": {
+        "minecraft:repair_with_xp": [
+            {
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": 0
+                }
+            }
+        ]
+    }
+}
